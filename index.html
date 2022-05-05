@@ -2,11 +2,175 @@
 <html>
 <head>
 <title>Page Title</title>
+
 </head>
 <body>
-
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
-
+<div id="message">this is my sample text</div>
 </body>
+//best practice
+<script>
+    var msg = document.getElementById('message').textContent;
+    console.log(msg);
+
+    // variables: var, let, const
+    // ES6 Let, const
+    let name = "Gokul";
+    console.log(name);
+    // 100 lines code
+    name = "Pardhu";
+    console.log(name);
+
+    //  A _ $ 
+    let a001_____ = "shhoot";
+    let $001 = "shhoot";
+    let _001 = "shhoot";
+    console.log(_001);
+
+    //camel case
+    myName = "siddhu";
+    myFavCol = "siddhu";
+
+
+    let add = 4;
+
+    // console.log(add + 2);
+    add += 2; // 6
+    add -= 2; // 4
+    add *= 2; // 8
+    add /= 2; // 4
+    console.log(add);
+    /* 
+        +
+        -
+        * 
+        /
+        ++
+        --
+        += 
+        -=
+        *=
+        /=
+    */
+
+    let b = 10;
+    console.log(b--);
+    console.log(b);
+   
+//    console.log('2 x 1 = '+ (2*1));
+//    console.log('2 x 1 = '+ (2*1));
+//    console.log('2 x 1 = '+ (2*1));
+//    console.log('2 x 1 = '+ (2*1));
+//    console.log('2 x 1 = '+ (2*1));
+
+
+//string interpolation // es6
+const  myPet = "dobbeer";
+console.log(`my pet name is ${myPet}`);
+
+
+//conditions
+
+if(false){
+    console.log("im here");
+}
+
+let age = 16;
+if(age > 18){
+    console.log('you are allowed');
+} else{
+    console.log('you are not allowed');
+}
+
+let resume = "my name is siddhu i want this job my name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this jobmy name is siddhu i want this job";
+console.log(resume.length);
+if(resume.length > 1000){
+    console.log('you are allowed to apply job');
+} else{
+    console.log('you are not allowed to apply job');
+}
+
+/*
+
+    90% a
+    70% b
+    60% c
+    40% d
+
+*/
+let stdnt = 25;
+
+if(stdnt >= 90){
+    console.log('you are A grade student');
+} else if(stdnt >= 70){
+    console.log('you are B grade student');
+}  else if(stdnt >= 60){
+    console.log('you are C grade student');
+}  else if(stdnt >= 40){
+    console.log('you are D grade student');
+} else {
+    console.log('you are Failed');
+}
+
+
+switch(stdnt)
+{
+    case (stdnt >= 90):
+    console.log('you are A grade student');
+    break;
+    case (stdnt >= 70):
+    console.log('you are B grade student');
+    break;
+    case (stdnt >= 60):
+    console.log('you are C grade student');
+    break;
+    case (stdnt >= 40):
+    console.log('you are D grade student');
+    break;
+    default:
+    console.log('you are Failed');
+    break;
+}
+
+// ===
+// !==
+// !=
+// ==
+
+let d = '100';
+
+if(d !== 100){
+    console.log("this is false");
+}
+
+if(d == 100)
+{
+    console.log('this will not come');
+}
+
+
+let height = 510;
+
+if((height == 510) || (height == 515) || (height == 600))
+{
+    console.log('your heght agreed');
+}
+
+
+let hgt = 510; wgt = 60; esgt = 1;
+
+if((hgt == 510) && (wgt == 60) && (esgt >= 1))
+{
+    console.log('your are eligible');
+}
+
+
+
+
+
+
+
+</script>
+
 </html>
