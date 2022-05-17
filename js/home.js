@@ -7,7 +7,8 @@
 
 //function with parameters
 //function with return
-
+// function experssion
+// arrow functions
 
 // function marriage(gift1, gift2){
 //   return gift1;
@@ -135,10 +136,155 @@ console.log(mySeelf[3][3][0]);
 // block
 // array built in methods
 // string built in methods
+//  iterations
+
+
 // date format
 // Dom
+
+
 // classes oops
+
+
 // js errors handling
 // js regx
 // JS Async
 
+
+let a = ['apple', 'mango','orng', 'banana','grape','Pineapple'];
+let bb = "Siddhartha";
+console.log(a[0]);
+console.log(a[1]);
+console.log(a[2]);
+console.log(a[3]);
+console.log(a[4]);
+console.log(bb.length);
+console.log(a.length);
+z = 0;
+
+if(z < 20){
+    console.log("yes true");
+}
+
+
+for(i=1;i<=20;i++)
+{
+  console.log('2 x '+i+' = '+ (2*i));  
+}
+
+console.log('----------------');
+
+for(i=20;i>=1;i--)
+{
+    if(i == 10){
+        console.log('this is =>'+ i);
+        break;
+    }
+  console.log('2 x '+i+' = '+ (2*i));  
+}
+
+
+for(j=0;j<a.length;j++)
+{
+    console.log(j);
+    console.log(a[j]);
+}
+
+
+
+console.log('----');
+let nums = [1,2,4,5,67,88,96,333];
+
+let numSum = 0;
+for(q=0;q<nums.length;q++){
+    numSum += nums[q];
+}
+console.log('Total sum: '+numSum);
+
+// while 
+for(i=1;i<=20;i++)
+{
+  console.log('2 x '+i+' = '+ (2*i));  
+}
+
+let numB = 1;
+while(numB<=20){
+    console.log('3 x '+numB+' = '+ (3*numB));      
+    numB++;
+}
+
+console.log('------------');
+//iterations
+nums.forEach(element => {
+    console.log(element);
+});
+
+
+//diff while vs for
+// diff do while vs while
+
+//scope
+
+//  b = 40;
+//  console.log(b);
+//  database = "siddhfhnfhn";
+//  console.log(database);
+
+// block
+
+let news = "telugu";
+
+if(true){
+    console.log("siddhu");
+    let news = "English";
+    console.log(news);
+}
+
+console.log(news);
+
+
+//Array build in methods
+
+let arrY = ['moon','sun','stars','clouds','rainbow','parrot'];
+
+//property
+console.log(arrY.length);
+
+//methods
+// let nMn = [];
+// for(w=0;w<arrY.length;w++){
+//     console.log(arrY[w]);
+
+//     if(arrY[w] !== 'parrot'){
+//         nMn[w] = arrY[w];
+//     }
+// }
+
+// console.log(nMn);
+arrY.pop();
+arrY.pop();
+arrY.pop();
+arrY.pop();
+console.log(arrY);
+
+// Task 1
+// How to delete particular array value?
+
+
+let cart = ['soup','paste','shapoo'];
+
+cart.push('Toothppaste');
+cart.push(['brush','cloths','eggs']);
+console.log(cart);
+
+
+
+
+
+const mapEx = nums.map(num => {
+ return num*2;
+});
+console.log(mapEx);
+
+//task2
+//reduce(), filters(), findofindex(), isarray()
