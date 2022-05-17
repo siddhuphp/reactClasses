@@ -135,8 +135,8 @@ console.log(mySeelf[3][3][0]);
 // scope
 // block
 // array built in methods
-// string built in methods
-//  iterations
+// string built in methods 
+// iterations
 
 
 // date format
@@ -267,8 +267,7 @@ arrY.pop();
 arrY.pop();
 console.log(arrY);
 
-// Task 1
-// How to delete particular array value?
+
 
 
 let cart = ['soup','paste','shapoo'];
@@ -286,5 +285,45 @@ const mapEx = nums.map(num => {
 });
 console.log(mapEx);
 
-//task2
+
+let zz = ['11','22','bb','33','44','55'];
+// Task 1
+// How to delete particular array value?
+document.write("<br/> <h2>How to delete particular array value?</h2> ");
+document.write(zz);
+
+
+
+let zzz = ['11','22','bb','33','44','55','111','222','bbb','333','444','545'];
+//console.log(zz);
+// splice('elementPosition','1/0',item1,item2,itemn);
+// add 0
+// remove 1
+// replace 2
+// zz.splice(4,1);
+// console.log(zz);
+
+//indexOf()
+
+// for(i=0;i<zz.length;i++){
+//   console.log(zz[i]);
+  
+//   if(zz[i] == '44'){
+//     console.log('index value : '+i);
+//   }
+// }
+
+
+console.log(zz.indexOf('44'));
+
+let index = zz.indexOf('bb');
+zz.splice(index,2,'AA','AAA','AAAA');
+console.log(zz);
+
+
+
+//task1
 //reduce(), filters(), findofindex(), isarray()
+
+//string built in methods
+//4 
